@@ -13,10 +13,20 @@
       color: #333;
     }
     header {
-      background: #111;
+      background: url('https://images.unsplash.com/photo-1594737625785-cf21b9f79e82?auto=format&fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
       color: #fff;
-      padding: 40px 20px;
+      padding: 80px 20px;
       text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #000;
+    }
+    header p {
+      font-size: 1.5em;
+      text-shadow: 1px 1px #000;
     }
     section {
       background: #fff;
@@ -26,6 +36,7 @@
     }
     h2 {
       color: #e63946;
+      margin-top: 0;
     }
     ul {
       padding-left: 20px;
@@ -38,11 +49,47 @@
       margin: 15px;
       border-radius: 8px;
     }
+    .btn {
+      display: inline-block;
+      background: #25D366;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .social {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .social a {
+      display: inline-block;
+      margin: 0 10px;
+      background: #E1306C;
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .social a:hover {
+      opacity: 0.9;
+    }
     footer {
       background: #111;
       color: #fff;
       text-align: center;
       padding: 15px;
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+      header h1 { font-size: 2em; }
+      header p { font-size: 1.2em; }
     }
   </style>
 </head>
@@ -86,14 +133,21 @@
 <div class="cta">
   <h2>Ready to Transform?</h2>
   <p>Join Thomas Anna Fits Boot Camp Today</p>
+  <a href="https://wa.me/16045555678" target="_blank" class="btn">
+    Chat on WhatsApp
+  </a>
 </div>
 
 <section>
   <h2>Contact</h2>
-  <p><strong>Phone:</strong> YOUR NUMBER</p>
-  <p><strong>Email:</strong> YOUR EMAIL</p>
-  <p><strong>Location:</strong> YOUR CITY</p>
+  <p><strong>Phone:</strong> +1 (604) 555-5678</p>
+  <p><strong>Email:</strong> thomasannafits@gmail.com</p>
+  <p><strong>Location:</strong> Ontario, Canada</p>
 </section>
+
+<div class="social">
+  <a href="https://instagram.com/thomasannafits" target="_blank">Instagram</a>
+</div>
 
 <footer>
   <p>© 2025 Thomas Anna Fits Boot Camp</p>
