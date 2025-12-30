@@ -28,8 +28,9 @@ Thomas Anna Fits Boot Camp is a results-driven fitness program designed to help 
 - Online Training Available  
 
 ## Contact
-**WhatsApp / Phone:** +123456789  
-**Email:** yourname@email.com  
+**WhatsApp / Phone:**  +1 416 555 7392
+**Email:** anna.th
+omast1@gmail.com  
 
 ## Join Us
 Join Thomas Anna Fits Boot Camp today and start your fitness transformation journey!
